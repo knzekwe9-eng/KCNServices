@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Expo files
+.expo/
+.expo-shared/
+
+# IDE files
+.vscode/
+.idea/
+# Build output
+/dist/
+/build/
