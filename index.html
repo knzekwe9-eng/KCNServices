@@ -35,8 +35,23 @@
         </div>
     </main>
 
+    <section id="contact" class="upload-section">
+        <h2>Upload Screenshot</h2>
+        <p>Share a screenshot or image with us for service inquiries</p>
+        <div class="upload-container">
+            <input type="file" id="screenshotInput" accept="image/*" style="display: none;">
+            <button id="uploadBtn" class="upload-btn">Choose Screenshot</button>
+            <div id="fileName" class="file-name"></div>
+            <div id="previewContainer" class="preview-container" style="display: none;">
+                <img id="imagePreview" class="image-preview" alt="Screenshot preview">
+                <button id="clearBtn" class="clear-btn">Clear</button>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2026 KCNServices. All Rights Reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
