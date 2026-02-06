@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "KCN Services",
+    "slug": "kcn-services",
+    "version": "1.0.0",
+    "sdkVersion": "41.0.0",
+    "platforms": ["ios", "android"],
+    "primaryColor": "#ffffff",
+    "icon": "./assets/icon.png",
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#000000"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
